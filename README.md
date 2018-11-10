@@ -5,9 +5,9 @@ This Add-in is intented as a very simple Inventor add-in to show how to take an 
 1. Start Visual Studio 2017 or later as Administrator 
 2. Open TurnBlueAddIn.sln in Visual Studio
 3. Build solution
-4. Copy Autodesk.TurnBlue.Inventor.addin to %PROGRAMDATA%/Autodesk/Inventor \<version\>/Addins
-5. Copy the ouptut dll in bin/<Config>/TurnBlueAddIn.dll that you built in step 2 to %PROGRAMFILES%/Autodesk/Inventor \<version\>/Bin
-6. Run Inventor, you should see a Message Box stating that the Turn Blue add-in is enabled.
+4. Copy Autodesk.ChangeParam.Inventor.addin to %PROGRAMDATA%/Autodesk/Inventor \<version\>/Addins
+5. Copy the ouptut dll in bin/<Config>/ChangeParamAddIn.dll that you built in step 2 to %PROGRAMFILES%/Autodesk/Inventor \<version\>/Bin
+6. Run Inventor, you should see a Message Box stating that the Change Param add-in is enabled.
 7. Open a Part
-8. Got to the View Tab and Appearance Pane. 
-9. Click on the "Turn Blue" button and it should turn your part blue
+8. Got to the Model Tab and Modify Pane. 
+9. Click on the "Change Param" button and it should change the "height" parameter to "1"
