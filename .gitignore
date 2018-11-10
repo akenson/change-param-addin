@@ -1,0 +1,6 @@
+# ignore all Visual Studio files that shouldn't be checked in
+
+.vs/
+bin/
+obj/
+*.user

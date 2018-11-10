@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+     <!-- Type attribute is same as Type registry key (Standard, Translator, Plugin (Server only) -->
+     <Addin Type="Standard">
+     <ClassId>{B99DB61B-F61E-4A56-AE2C-3FB608A2547D}</ClassId>
+     <ClientId>{B99DB61B-F61E-4A56-AE2C-3FB608A2547D}</ClientId>
+
+     <!-- Both of the following fields should be translated. NO OTHER FIELDS SHOULD BE TRANSLATED! -->
+     <DisplayName>ChangeParamAddIn</DisplayName>
+     <Description>ChangeParamAddIn</Description>
+
+     <!-- Assumes that SimpleAddIn.dll is underneath Inventor\bin -->
+     <Assembly>C:\public_repos\change-param-addin\bin\Debug\ChangeParamAddIn.dll</Assembly>
+
+     <SupportedSoftwareVersionGreaterThan>17..</SupportedSoftwareVersionGreaterThan>
+     <LoadOnStartUp>1</LoadOnStartUp>
+     <Hidden>0</Hidden>
+</Addin>
