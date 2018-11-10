@@ -1,4 +1,4 @@
-# turn-blue-addin
+# change-param-addin
 
 This Add-in is intented as a very simple Inventor add-in to show how to take an existing Inventor Add-in and turn it into an AppBundle as a learning excersize for AU 2018.
 
